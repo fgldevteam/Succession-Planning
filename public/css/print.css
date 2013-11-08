@@ -1,0 +1,32 @@
+@page  
+{ 
+    size: auto;   /* auto is the initial value */ 
+
+    /* this affects the margin in the printer settings */ 
+    margin: 0mm -30mm 0mm -30mm;  
+} 
+
+body  
+{ 
+    /* this affects the margin on the content before sending to printer */ 
+    margin: 0px;  
+}
+
+#sidebar, .btn, .btn-group{ display: none;}
+*{font-family: Arial, sans-serif; }
+.img-polaroid{}
+textarea{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    display: block;
+    height: 100% !important;
+    border: 0px;
+}
+
+.span3{width: 160px;}
+
+pre{ padding: 0; margin: 0; border: 0; page-break-inside:avoid; font-size: 10px; line-height: 13px;}
+.hidden{display: block !important; width: 650px;}
+form{display: none;}
+
+.success * {font-weight: bold;}
