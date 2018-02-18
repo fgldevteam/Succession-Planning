@@ -49,7 +49,7 @@
 
     <div class="row">
     <div class="span3">
-        <?
+        <?php
         if($manager->photo_thumb !== "no-image"){
             echo "<img class='img-polaroid' src='/images/managers/".$manager->photo_thumb."'' />";
         } else {
@@ -138,14 +138,14 @@
             <tr>
                 <td>
 
-                    <? if( $manager->move == "Anywhere"){ echo "<abbr title='Move Anywhere'><img src='/images/app/move-anywhere.png' /></abbr> " . $manager->move; } ?>
-                    <? if( $manager->move == "Eastern/Western Canada"){ echo "<abbr title='Move Eastern/Western Canada'><img src='/images/app/move-regional.png' /></abbr> " . $manager->move; } ?>
-                    <? if( $manager->move == "Same Province"){ echo "<abbr title='Same Province'><img src='/images/app/move-province.png' /></abbr> " . $manager->move; } ?>
-                    <? if( $manager->move == "No"){ echo "<abbr title='Same Province'><img src='/images/app/no-move.png' /></abbr> " . $manager->move; } ?>
+                    <?php if( $manager->move == "Anywhere"){ echo "<abbr title='Move Anywhere'><img src='/images/app/move-anywhere.png' /></abbr> " . $manager->move; } ?>
+                    <?php if( $manager->move == "Eastern/Western Canada"){ echo "<abbr title='Move Eastern/Western Canada'><img src='/images/app/move-regional.png' /></abbr> " . $manager->move; } ?>
+                    <?php if( $manager->move == "Same Province"){ echo "<abbr title='Same Province'><img src='/images/app/move-province.png' /></abbr> " . $manager->move; } ?>
+                    <?php if( $manager->move == "No"){ echo "<abbr title='Same Province'><img src='/images/app/no-move.png' /></abbr> " . $manager->move; } ?>
 
                 </td>
                 <td>
-                    <? if( $manager->ulead_grad == "yes"){ echo "<abbr title='uLead Graduate'><img src='/images/app/ulead-grad.png' /></abrr> Yes"; } else { echo "No";} ?>
+                    <?php if( $manager->ulead_grad == "yes"){ echo "<abbr title='uLead Graduate'><img src='/images/app/ulead-grad.png' /></abrr> Yes"; } else { echo "No";} ?>
                 </td>
             </tr>
 

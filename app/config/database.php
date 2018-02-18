@@ -54,8 +54,8 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'succession_planning',
+			'host'      => '127.0.0.1',
+			'database'  => 'uLink',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',
